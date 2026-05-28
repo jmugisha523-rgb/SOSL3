@@ -1,49 +1,34 @@
-<template>
-  <nav class="bg-white shadow-lg px-12 py-5 flex items-center justify-between border-b border-gray-100">
-    
-    <!-- Logo -->
-    <h3 class="text-3xl font-extrabold text-blue-700 tracking-wide">
-      Tembera U'Rwanda
-    </h3>
+<script setup lang="ts">
+import { routeLocationKey } from 'vue-router';
 
-    <!-- Navigation Links -->
-    <div class="flex items-center gap-4">
-      
-      <h4 class="px-5 py-2 rounded-xl font-medium text-gray-700 hover:bg-blue-700 hover:text-white transition duration-300 cursor-pointer">
-        HOME
-      </h4>
+</script>
 
-      <!-- Dropdown -->
-      <div class="relative group">
-        
-        <h4 class="px-5 py-2 rounded-xl font-medium text-gray-700 hover:bg-blue-700 hover:text-white transition duration-300 cursor-pointer">
-          MEDIA
-        </h4>
+  <template>
+      <nav class="bg-green-800 text-white px-8 py-4 flex items-center justify-between shadow-lg w-full z-50" >
+          <img src="./assets/image.png" class="h-10 w-auto">
 
-        <!-- Dropdown Menu -->
-        <div class="absolute hidden group-hover:block bg-white shadow-lg rounded-xl mt-2 w-40 overflow-hidden">
-          
-          <p class="px-4 py-3 hover:bg-blue-700 hover:text-white cursor-pointer transition">
-            Images
-          </p>
-
-          <p class="px-4 py-3 hover:bg-blue-700 hover:text-white cursor-pointer transition">
-            Videos
-          </p>
-
-        </div>
-
-      </div>
-
-      <h4 class="px-5 py-2 rounded-xl font-medium text-gray-700 hover:bg-blue-700 hover:text-white transition duration-300 cursor-pointer">
-        ABOUT US
-      </h4>
-
-      <h4 class="px-5 py-2 rounded-xl font-medium text-gray-700 hover:bg-blue-700 hover:text-white transition duration-300 cursor-pointer">
-        CONTACT US
-      </h4>
-
-    </div>
-
-  </nav>
-</template>
+          <ul class="flex gap-8 text-sm font-medium w-full px-5 justify-end">
+              <li><router-link to="/" class="hover:text-yellow-300">Home</router-link></li>
+              <li><router-link to="/about" class="hover:text-yellow-300">About</router-link></li>
+              <li> <router-link to="/service" class="hover:text-yellow-300">Services</router-link></li>
+              <li class="relative group">
+                  <a href="#" class="hover:text-yellow-300">Gallery<span> v </span></a>
+                  <ul class="absolute left-0 mt-2 w-40 bg-green-800 text-white rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity z-50">
+                      <li><router-link to="/views/images" class="block px-4 py-2 hover:bg-green-700">Images</router-link></li>
+                      <li><router-link to="/gallery/videos" class="block px-4 py-2 hover:bg-green-700">Videos</router-link></li>
+                  </ul>
+              </li>
+               <li class="relative group">
+                  <a href="#" class="hover:text-yellow-300">Destination<span> v </span></a>
+                  <ul class="absolute left-0 mt-2 w-40 bg-green-800 text-white rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity z-50">
+                      <li> <router-link to="/kigali" class="block px-4 py-2 hover:bg-green-700">Kigali</router-link></li>
+                      <li><router-link to="/south" class="block px-4 py-2 hover:bg-green-700">South</router-link></li>
+                       <li><router-link to="/west" class="block px-4 py-2 hover:bg-green-700">West</router-link></li>
+                      <li><router-link to="/north" class="block px-4 py-2 hover:bg-green-700">North </router-link></li>
+                      <li><router-link to="/east" class="block px-4 py-2 hover:bg-green-700">East</router-link></li>
+                  </ul>
+                  </li>
+              <li> <router-link to="/contact" class="hover:text-yellow-300">Contact</router-link></li>
+          </ul>
+      </nav>
+  </template>

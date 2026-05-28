@@ -1,8 +1,9 @@
 <script setup>
-import Home from './Component/Home.vue'
 import Navbar from './Navbar.vue'
+import Footer from './Component/Footer.vue'
 </script>
 <template>
-  <Navbar/>
-  <Home/>
+  <Navbar />
+  <router-view />
+  <Footer />
 </template>
