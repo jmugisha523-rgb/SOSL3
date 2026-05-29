@@ -2,7 +2,7 @@
   <!-- Hero Section -->
   <section
     class="relative h-screen bg-cover bg-center flex items-center justify-center text-white"
-    style="background-image: url('/src/assets/download.jpg')"
+    style="background-image: url('/src/assets/download.webp')"
   >
     <div class="bg-black/50 absolute inset-0"></div>
     <div class="relative text-center px-4 max-w-4xl mx-auto">
