@@ -34,6 +34,7 @@
 
   <!-- Featured Destinations -->
   <section class="py-20 bg-gray-50">
+    <!-- AKagera card images are shown above; ensure layout is correct -->
     <div class="max-w-6xl mx-auto px-4">
       <h2 class="text-5xl font-bold text-center mb-4 text-gray-800">
         Featured Destinations
@@ -47,8 +48,13 @@
         <div
           class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
         >
-          <div class="h-64 bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center">
-            <span class="text-6xl">🏔️</span>
+          <div class="h-64 relative">
+            <img
+              src="/src/assets/download.jpg"
+              alt="Volcanoes National Park"
+              class="w-full h-full object-cover"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
           </div>
           <div class="p-6">
             <h3 class="text-2xl font-bold mb-2 text-gray-800">Volcanoes National Park</h3>
@@ -68,8 +74,12 @@
         <div
           class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
         >
-          <div class="h-64 bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center">
-            <span class="text-6xl">🌊</span>
+          <div class="h-64 relative">
+            <img
+              src="/src/assets/download.webp"
+              alt="Lake Kivu"
+              class="w-full h-full object-cover"
+            />
           </div>
           <div class="p-6">
             <h3 class="text-2xl font-bold mb-2 text-gray-800">Lake Kivu</h3>
@@ -89,8 +99,13 @@
         <div
           class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
         >
-          <div class="h-64 bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center">
-            <span class="text-6xl">🦁</span>
+          <div class="h-64 relative">
+            <img
+              src="/src/assets/image.png"
+              alt="Akagera National Park"
+              class="w-full h-full object-cover"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
           </div>
           <div class="p-6">
             <h3 class="text-2xl font-bold mb-2 text-gray-800">Akagera National Park</h3>
