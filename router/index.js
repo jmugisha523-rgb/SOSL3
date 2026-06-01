@@ -1,91 +1,41 @@
-import { createRouter,createWebHistory } from "vue-router";
-import home from "../Views/home.vue"
-import about from "../Views/about.vue"
-import services from "../Views/Services.vue"
-import photos from "../Views/photos.vue"
-import videos from "../Views/Videos.vue"
-import north from "../Views/Northern.vue"
-import south from "../Views/Southern.vue"
-import east from "../Views/Eastern.vue"
-import west from "../Views/Western.vue"
-import kigali from "../Views/Kigali.vue"
-import Kigali from "../Views/Kigali.vue"
-import contact from "../Views/Contact.vue"
-import Services from "../Views/Services.vue";
-const routes=[
-    {
-        path:"/",
-        name:"Home",
-        component:home
-    },
-    {
-        path:"/about",
-        name:"About",
-        component:about
-    },
-      {
-path:"/Services",
-name:"Services",
-component:Services
+import { createRouter, createWebHistory } from "vue-router";
 
-    },
+// Pages
+import Home from "../views/Home.vue";
+import About from "../views/About.vue";
+import Services from "../views/Services.vue";
+import Contact from "../views/Contact.vue";
 
-{
-  path:"/Photos",
-  name:"Photos",
-  component:photos  
-},
-{
-    path:"/Videos",
-    name:"videos",
-    component:videos
+// Provinces
+import Kigali from "../views/Kigali.vue";
+import Northern from "../views/Northern.vue";
+import Southern from "../views/Southern.vue";
+import Western from "../views/Western.vue";
+import Eastern from "../views/Eastern.vue";
 
-},
-{
-    path:"/North",
-    name:"North",
-    component:north
-},
+// Destination Page (NEW)
+import Destinations from "../views/Destinations.vue";
 
-{
-    path:"/East",
-    name:"East",
-    component:east
-},
+const routes = [
+  { path: "/", name: "Home", component: Home },
+  { path: "/about", name: "About", component: About },
+  { path: "/services", name: "Services", component: Services },
+  { path: "/contact", name: "Contact", component: Contact },
 
-{
-    path:"/South",
-    name:"South",
-    component:south
-},
+  // provinces
+  { path: "/kigali", name: "Kigali", component: Kigali },
+  { path: "/northern", name: "Northern", component: Northern },
+  { path: "/southern", name: "Southern", component: Southern },
+  { path: "/western", name: "Western", component: Western },
+  { path: "/eastern", name: "Eastern", component: Eastern },
 
-{
-    path:"/West",
-    name:"Western",
-    component:west
-},
-{
-    path:"/Kigali",
-    name:"Kigali",
-    component:Kigali
-
-},
-{
-    path:"/Contact",
-    name:"Contact",
-    component:contact
-}
-
-
-
-
+  // destinations hub page
+  { path: "/destinations", name: "Destinations", component: Destinations },
 ];
 
-const router=createRouter(
-    {
-   history:createWebHistory(),
-   routes,
-    },)
-  
+const router = createRouter({
+  history: createWebHistory(),
+  routes,
+});
 
-export default router
+export default router;

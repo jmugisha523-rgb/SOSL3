@@ -4,6 +4,7 @@ import About from "@/views/about.vue";
 import Contact from "@/views/contact.vue";
 import Service from "@/views/service.vue";
 import Province from "@/views/province.vue";
+import Image from "@/views/image.vue";
 const routes = [
 {
     path: "/",
@@ -28,7 +29,13 @@ const routes = [
     path: "/province/:province",
     name: "Province",
     component: Province
+},
+{
+    path: "/image",
+    name: "Gallery",
+    component: Image
 }
+
 
 ];
 
