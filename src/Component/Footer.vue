@@ -21,7 +21,7 @@ import { RouterLink } from 'vue-router'
         </div>
       </div>
 
-      <!-- Quick Links -->
+      
       <div>
         <h3 class="text-xl font-bold text-yellow-300 mb-6 border-b-2 border-yellow-400 pb-2">Quick Links</h3>
         <ul class="space-y-3 text-sm">

@@ -54,7 +54,7 @@ import { RouterLink } from 'vue-router'
           <div class="grid md:grid-cols-2 gap-10 items-center">
 
             <img
-              src="/src/assets/volcanoes-park.jpg"
+              src="/images/virunga-volcanoes.jpg.jpg"
               class="rounded-2xl shadow-xl w-full h-80 object-cover"
             />
 
@@ -95,7 +95,7 @@ import { RouterLink } from 'vue-router'
             </div>
 
             <img
-              src="/src/assets/musanze-caves.jpg"
+              src="/images/virunga-volcanoes.jpg.jpg"
               class="rounded-2xl shadow-xl w-full h-80 object-cover order-1 md:order-2"
             />
 
@@ -105,7 +105,7 @@ import { RouterLink } from 'vue-router'
           <div class="grid md:grid-cols-2 gap-10 items-center">
 
             <img
-              src="/src/assets/twin-lakes.jpg"
+              src="/images/twin-lakes.jpg"
               class="rounded-2xl shadow-xl w-full h-80 object-cover"
             />
 
@@ -145,7 +145,7 @@ import { RouterLink } from 'vue-router'
             </div>
 
             <img
-              src="/src/assets/dian-fossey.jpg"
+              src="/images/tea-plantation.jpg"
               class="rounded-2xl shadow-xl w-full h-80 object-cover order-1 md:order-2"
             />
 

@@ -15,6 +15,8 @@ const messages = {
     autoplayOff: 'Autoplay: Off',
   },
   fr: {
+
+    
     title: 'Galerie Culturelle du Rwanda',
     subtitle: 'Moments de danse traditionnelle rwandaise (images en ligne)',
     languageLabel: 'Langue',
@@ -38,43 +40,176 @@ const messages = {
 
 const t = computed(() => messages[language.value] ?? messages.en)
 
-// Sliding carousel (no external dependency)
 const slides = [
   {
-    // Rwandan traditional dance (remote image)
-    src: 'https://images.unsplash.com/photo-1526779259212-321de3f5a0a5?auto=format&fit=crop&w=1600&q=80',
-    alt: 'Traditional dance in Rwanda',
+    src: '/images/congo-nile-trail.jpg - Copy - Copy.jpg',
+    alt: 'Congo Nile Trail',
     caption: {
-      en: 'Traditional dance energy',
-      fr: 'Énergie de la danse traditionnelle',
-      rw: 'Imbaraga z’imbyino gakondo',
+      en: 'Congo Nile Trail',
+      fr: 'Sentier Congo Nil',
+      rw: 'Inzira ya Congo Nil',
     },
   },
   {
-    src: 'https://images.unsplash.com/photo-1541701494084-1e3d6f0cc0c1?auto=format&fit=crop&w=1600&q=80',
-    alt: 'People dancing',
+    src: '/images/canopy-walk - Copy - Copy.jpg',
+    alt: 'Canopy Walk',
     caption: {
-      en: 'Joyful community performance',
-      fr: 'Performance joyeuse et collective',
-      rw: 'Imbyino z’urukundo n’abandi hamwe',
+      en: 'Canopy Walk',
+      fr: 'Promenade dans la canopée',
+      rw: 'Kuroba hejuru (Canopy Walk)',
     },
   },
   {
-    src: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80',
-    alt: 'Traditional drumming and dance',
+    src: '/images/convention-center.jpg',
+    alt: 'Convention Center',
     caption: {
-      en: 'Culture through rhythm',
-      fr: 'La culture à travers le rythme',
-      rw: 'Umuco ugaragara mu njyana',
+      en: 'Convention Center',
+      fr: 'Centre de Convention',
+      rw: 'Amahugurwa',
     },
   },
   {
-    src: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1600&q=80',
-    alt: 'Traditional celebration dance',
+    src: '/images/genocide-memorial.jpg - Copy - Copy.jpg',
+    alt: 'Genocide Memorial',
     caption: {
-      en: 'Celebration & tradition',
-      fr: 'Célébration & tradition',
-      rw: 'Iserukiramuco n’umuco',
+      en: 'Genocide Memorial',
+      fr: 'Mémorial du Génocide',
+      rw: 'Urwibutso rw’Urwandy',
+    },
+  },
+  {
+    src: '/images/kibuye.jpg - Copy.jpg',
+    alt: 'Kibuye',
+    caption: {
+      en: 'Kibuye',
+      fr: 'Kibuye',
+      rw: 'Kibuye',
+    },
+  },
+  {
+    src: '/images/kigali-skyline.jpg.jpg',
+    alt: 'Kigali Skyline',
+    caption: {
+      en: 'Kigali Skyline',
+      fr: 'Panorama de Kigali',
+      rw: 'Aho Kigali igaragaza',
+    },
+  },
+  {
+    src: '/images/kimironko-market.jpg',
+    alt: 'Kimironko Market',
+    caption: {
+      en: 'Kimironko Market',
+      fr: 'Marché Kimironko',
+      rw: 'Isoko rya Kimironko',
+    },
+  },
+  {
+    src: '/images/lake-kivu-islands.jpg.jpg',
+    alt: 'Lake Kivu Islands',
+    caption: {
+      en: 'Lake Kivu Islands',
+      fr: 'Îles du lac Kivu',
+      rw: 'Inyabutatu z’ikiyaga cya Kivu',
+    },
+  },
+  {
+    src: '/images/lake-kivu-sunset.jpg.jpg',
+    alt: 'Lake Kivu Sunset',
+    caption: {
+      en: 'Lake Kivu Sunset',
+      fr: 'Coucher de soleil sur le lac Kivu',
+      rw: 'Izuba rirenze i Kivu',
+    },
+  },
+  {
+    src: '/images/lake-kivu.jpg',
+    alt: 'Lake Kivu',
+    caption: {
+      en: 'Lake Kivu',
+      fr: 'Lac Kivu',
+      rw: 'Ikiyaga cya Kivu',
+    },
+  },
+  {
+    src: '/images/lake-muhazi.jpg',
+    alt: 'Lake Muhazi',
+    caption: {
+      en: 'Lake Muhazi',
+      fr: 'Lac Muhazi',
+      rw: 'Ikiyaga cya Muhazi',
+    },
+  },
+  {
+    src: '/images/mountain-gorillas.jpg.jpg',
+    alt: 'Mountain Gorillas',
+    caption: {
+      en: 'Mountain Gorillas',
+      fr: 'Gorilles des montagnes',
+      rw: 'Impyisi zo mu misozi',
+    },
+  },
+  {
+    src: '/images/nyandungu-park.jpg.jpg',
+    alt: 'Nyandungu Park',
+    caption: {
+      en: 'Nyandungu Park',
+      fr: 'Parc Nyandungu',
+      rw: 'Pariki ya Nyandungu',
+    },
+  },
+  {
+    src: '/images/nyungwe.jpg',
+    alt: 'Nyungwe',
+    caption: {
+      en: 'Nyungwe',
+      fr: 'Nyungwe',
+      rw: 'Nyungwe',
+    },
+  },
+  {
+    src: '/images/rubavu-beach.jpg.jpg',
+    alt: 'Rubavu Beach',
+    caption: {
+      en: 'Rubavu Beach',
+      fr: 'Plage de Rubavu',
+      rw: 'Inyanja ya Rubavu',
+    },
+  },
+  {
+    src: '/images/rwanda-banner.jpg',
+    alt: 'Rwanda Banner',
+    caption: {
+      en: 'Rwanda Banner',
+      fr: 'Bannière du Rwanda',
+      rw: 'Ibendera ry’u Rwanda',
+    },
+  },
+  {
+    src: '/images/tea-plantation.jpg',
+    alt: 'Tea Plantation',
+    caption: {
+      en: 'Tea Plantation',
+      fr: 'Plantation de thé',
+      rw: 'Ubusitani bw’icyayi',
+    },
+  },
+  {
+    src: '/images/twin-lakes.jpg',
+    alt: 'Twin Lakes',
+    caption: {
+      en: 'Twin Lakes',
+      fr: 'Lacs Jumeaux',
+      rw: 'Amakiyaga abiri',
+    },
+  },
+  {
+    src: '/images/virunga-volcanoes.jpg.jpg',
+    alt: 'Virunga Volcanoes',
+    caption: {
+      en: 'Virunga Volcanoes',
+      fr: 'Volcans des Virunga',
+      rw: 'Imisozi y’Inkangu z’i Virunga',
     },
   },
 ]
@@ -82,6 +217,7 @@ const slides = [
 const index = ref(0)
 const isAutoplay = ref(true)
 const autoplayMs = 3500
+
 let timer = null
 
 function goTo(i) {

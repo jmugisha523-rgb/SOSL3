@@ -4,7 +4,7 @@
     <!-- HERO SECTION -->
     <section
       class="relative min-h-screen flex items-center justify-center bg-cover bg-center overflow-hidden"
-      style="background-image: linear-gradient(135deg, rgba(34, 197, 94, 0.6) 0%, rgba(20, 83, 49, 0.6) 100%), url('/rwanda-banner.jpg'); background-attachment: fixed;"
+      style="background-image: linear-gradient(135deg, rgba(34, 197, 94, 0.6) 0%, rgba(20, 83, 49, 0.6) 100%), url('/images/virunga-volcanoes.jpg.jpg'); background-attachment: fixed;"
     >
       <div class="relative z-10 text-center text-white px-6 max-w-4xl mx-auto animate-fadeInUp">
         <div class="inline-block bg-yellow-500 px-6 py-2 rounded-full text-sm font-bold mb-6 text-white">

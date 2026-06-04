@@ -4,7 +4,6 @@ import { RouterLink } from 'vue-router'
 
 <template>
   <div class="min-h-screen bg-white">
-
     <!-- HERO SECTION -->
     <section
       class="relative h-[60vh] md:h-[70vh] flex items-center justify-center bg-cover bg-center overflow-hidden"
@@ -13,9 +12,7 @@ import { RouterLink } from 'vue-router'
       <div class="absolute inset-0 bg-black/50"></div>
 
       <div class="relative z-10 text-center text-white px-6 animate-fadeInUp">
-        <h1 class="text-5xl md:text-7xl font-bold mb-4">
-          🦁 Eastern Province
-        </h1>
+        <h1 class="text-5xl md:text-7xl font-bold mb-4">🦁 Eastern Province</h1>
 
         <p class="text-lg md:text-2xl max-w-3xl mx-auto text-gray-100">
           Rwanda's gateway to wildlife, lakes, and untamed natural beauty
@@ -26,13 +23,12 @@ import { RouterLink } from 'vue-router'
     <!-- INTRO SECTION -->
     <section class="py-16 md:py-24 bg-gradient-to-b from-white to-green-50">
       <div class="max-w-6xl mx-auto px-6 text-center">
-
         <h2 class="text-4xl md:text-5xl font-bold mb-6 text-green-900">
           Discover Rwanda's Wild East
         </h2>
 
         <p class="text-gray-700 text-lg leading-relaxed max-w-3xl mx-auto">
-          The Eastern Province offers stunning landscapes, pristine lakes, wildlife encounters, 
+          The Eastern Province offers stunning landscapes, pristine lakes, wildlife encounters,
           and authentic rural Rwanda. Experience the country's most undiscovered natural treasures.
         </p>
 
@@ -50,14 +46,12 @@ import { RouterLink } from 'vue-router'
             <p class="text-sm font-semibold text-green-900 mt-2">Rural Life</p>
           </div>
         </div>
-
       </div>
     </section>
 
     <!-- ATTRACTIONS SECTION -->
     <section class="py-16 md:py-24 bg-white">
       <div class="max-w-7xl mx-auto px-6">
-
         <div class="text-center mb-16">
           <h2 class="text-4xl md:text-5xl font-bold text-green-900 mb-4">
             Top Attractions to Visit
@@ -66,7 +60,6 @@ import { RouterLink } from 'vue-router'
         </div>
 
         <div class="space-y-20">
-
           <!-- 1. LAKE MUHAZI -->
           <div class="grid md:grid-cols-2 gap-10 items-center hover:shadow-xl transition-shadow rounded-2xl overflow-hidden">
             <div class="overflow-hidden rounded-2xl">
@@ -76,6 +69,8 @@ import { RouterLink } from 'vue-router'
                 class="w-full h-80 object-cover hover:scale-110 transition-transform duration-500"
               />
             </div>
+
+
 
             <div class="p-6">
               <h3 class="text-3xl md:text-4xl font-bold text-green-800 mb-4">
@@ -284,222 +279,9 @@ import { RouterLink } from 'vue-router'
 .animate-fadeInUp {
   animation: fadeInUp 1s ease-out;
 }
-</style>
 
-    <!-- INTRO -->
-    <section class="py-20 bg-white">
-      <div class="max-w-6xl mx-auto px-6 text-center">
-
-        <h2 class="text-4xl font-bold mb-6 text-gray-800">
-          Welcome to Eastern Rwanda
-        </h2>
-
-        <p class="text-gray-600 text-lg leading-relaxed">
-          The Eastern Province is Rwanda’s largest region, famous for Akagera National Park,
-          savannah wildlife, lakes, and unforgettable safari experiences.
-        </p>
-
-      </div>
-    </section>
-
-    <!-- ATTRACTIONS -->
-    <section class="py-20 bg-gray-50">
-      <div class="max-w-7xl mx-auto px-6">
-
-        <h2 class="text-4xl font-bold text-center mb-16">
-          Top Tourist Attractions
-        </h2>
-
-        <div class="space-y-16">
-
-          <!-- Akagera National Park -->
-          <div class="grid md:grid-cols-2 gap-10 items-center">
-
-            <img
-              src="/src/assets/akagera-park.jpg"
-              class="rounded-2xl shadow-xl w-full h-80 object-cover"
-            />
-
-            <div>
-              <h3 class="text-3xl font-bold mb-3">
-                Akagera National Park
-              </h3>
-
-              <p class="text-gray-600 mb-3">
-                Rwanda’s only savannah national park, home to the Big Five:
-                lions, elephants, rhinos, leopards, and buffalo.
-              </p>
-
-              <p class="text-gray-500">
-                📍 Location: Eastern Rwanda (Kayonza District)
-              </p>
-            </div>
-
-          </div>
-
-          <!-- Lake Ihema -->
-          <div class="grid md:grid-cols-2 gap-10 items-center">
-
-            <div class="order-2 md:order-1">
-              <h3 class="text-3xl font-bold mb-3">
-                Lake Ihema
-              </h3>
-
-              <p class="text-gray-600 mb-3">
-                A beautiful lake inside Akagera National Park, famous for boat safaris,
-                hippos, crocodiles, and bird watching.
-              </p>
-
-              <p class="text-gray-500">
-                📍 Location: Akagera National Park
-              </p>
-            </div>
-
-            <img
-              src="/src/assets/lake-ihema.jpg"
-              class="rounded-2xl shadow-xl w-full h-80 object-cover order-1 md:order-2"
-            />
-
-          </div>
-
-          <!-- Savannah -->
-          <div class="grid md:grid-cols-2 gap-10 items-center">
-
-            <img
-              src="/src/assets/savannah.jpg"
-              class="rounded-2xl shadow-xl w-full h-80 object-cover"
-            />
-
-            <div>
-              <h3 class="text-3xl font-bold mb-3">
-                Savannah Landscapes
-              </h3>
-
-              <p class="text-gray-600 mb-3">
-                Endless golden savannah plains filled with wildlife,
-                perfect for game drives and photography.
-              </p>
-
-              <p class="text-gray-500">
-                📍 Location: Akagera Region
-              </p>
-            </div>
-
-          </div>
-
-          <!-- Akagera River -->
-          <div class="grid md:grid-cols-2 gap-10 items-center">
-
-            <div class="order-2 md:order-1">
-              <h3 class="text-3xl font-bold mb-3">
-                Akagera River
-              </h3>
-
-              <p class="text-gray-600 mb-3">
-                A scenic river forming part of the Rwanda-Tanzania border,
-                supporting diverse wildlife ecosystems.
-              </p>
-
-              <p class="text-gray-500">
-                📍 Location: Eastern Border Area
-              </p>
-            </div>
-
-            <img
-              src="/src/assets/akagera-river.jpg"
-              class="rounded-2xl shadow-xl w-full h-80 object-cover order-1 md:order-2"
-            />
-
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <!-- ACTIVITIES -->
-    <section class="py-20 bg-white">
-      <div class="max-w-6xl mx-auto px-6 text-center">
-
-        <h2 class="text-4xl font-bold mb-10">
-          Activities in Eastern Province
-        </h2>
-
-        <div class="grid md:grid-cols-3 gap-8">
-
-          <div class="p-6 bg-gray-50 rounded-xl shadow">
-            <h3 class="font-bold text-xl mb-2">Game Drives</h3>
-            <p class="text-gray-600">Explore wildlife including the Big Five.</p>
-          </div>
-
-          <div class="p-6 bg-gray-50 rounded-xl shadow">
-            <h3 class="font-bold text-xl mb-2">Boat Safari</h3>
-            <p class="text-gray-600">Enjoy hippos, crocodiles, and birds on Lake Ihema.</p>
-          </div>
-
-          <div class="p-6 bg-gray-50 rounded-xl shadow">
-            <h3 class="font-bold text-xl mb-2">Photography Tours</h3>
-            <p class="text-gray-600">Capture stunning wildlife and landscapes.</p>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="py-24 bg-green-700 text-white text-center">
-
-      <h2 class="text-5xl font-bold mb-6">
-        You’ve Explored All Provinces!
-      </h2>
-
-      <p class="text-xl mb-10">
-        Go back and explore Rwanda’s full tourism experience.
-      </p>
-
-      <div class="flex flex-col md:flex-row justify-center gap-4">
-
-        <router-link
-          to="/kigali"
-          class="bg-white text-green-700 px-8 py-4 rounded-lg font-bold"
-        >
-          Kigali City
-        </router-link>
-
-        <router-link
-          to="/destinations"
-          class="bg-yellow-500 text-black px-8 py-4 rounded-lg font-bold"
-        >
-          All Destinations
-        </router-link>
-
-      </div>
-
-    </section>
-
-  </div>
-</template>
-
-<script>
-export default {
-  name: "EasternView"
-}
-</script>
-
-<style scoped>
 html {
   scroll-behavior: smooth;
 }
 </style>
 
-
-
-
-
-<!-- /src/assets/
-  eastern-hero.jpg
-  akagera-park.jpg
-  lake-ihema.jpg
-  savannah.jpg
-  akagera-river.jpg -->

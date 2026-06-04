@@ -4,7 +4,6 @@ import { RouterLink } from 'vue-router'
 
 <template>
   <div class="min-h-screen bg-white">
-
     <!-- HERO SECTION -->
     <section
       class="relative h-[60vh] md:h-[70vh] flex items-center justify-center bg-cover bg-center overflow-hidden"
@@ -13,9 +12,7 @@ import { RouterLink } from 'vue-router'
       <div class="absolute inset-0 bg-black/50"></div>
 
       <div class="relative z-10 text-center text-white px-6 animate-fadeInUp">
-        <h1 class="text-5xl md:text-7xl font-bold mb-4">
-          🌊 Western Province
-        </h1>
+        <h1 class="text-5xl md:text-7xl font-bold mb-4">🌊 Western Province</h1>
 
         <p class="text-lg md:text-2xl max-w-3xl mx-auto text-gray-100">
           Rwanda's lake paradise with sandy beaches, islands, and stunning sunsets
@@ -26,13 +23,12 @@ import { RouterLink } from 'vue-router'
     <!-- INTRO SECTION -->
     <section class="py-16 md:py-24 bg-gradient-to-b from-white to-green-50">
       <div class="max-w-6xl mx-auto px-6 text-center">
-
         <h2 class="text-4xl md:text-5xl font-bold mb-6 text-green-900">
           Relax by Africa's Great Lakes
         </h2>
 
         <p class="text-gray-700 text-lg leading-relaxed max-w-3xl mx-auto">
-          The Western Province is home to Lake Kivu, one of Africa's most beautiful Great Lakes. 
+          The Western Province is home to Lake Kivu, one of Africa's most beautiful Great Lakes.
           Enjoy pristine beaches, island hopping, water sports, and the most spectacular sunsets in Rwanda.
         </p>
 
@@ -50,25 +46,22 @@ import { RouterLink } from 'vue-router'
             <p class="text-sm font-semibold text-green-900 mt-2">Island Tours</p>
           </div>
         </div>
-
       </div>
     </section>
 
     <!-- ATTRACTIONS SECTION -->
     <section class="py-16 md:py-24 bg-white">
       <div class="max-w-7xl mx-auto px-6">
-
         <div class="text-center mb-16">
-          <h2 class="text-4xl md:text-5xl font-bold text-green-900 mb-4">
-            Top Attractions to Visit
-          </h2>
+          <h2 class="text-4xl md:text-5xl font-bold text-green-900 mb-4">Top Attractions to Visit</h2>
           <p class="text-gray-600 text-lg">Discover lakeside beauty and adventure</p>
         </div>
 
         <div class="space-y-20">
-
           <!-- 1. LAKE KIVU -->
-          <div class="grid md:grid-cols-2 gap-10 items-center hover:shadow-xl transition-shadow rounded-2xl overflow-hidden">
+          <div
+            class="grid md:grid-cols-2 gap-10 items-center hover:shadow-xl transition-shadow rounded-2xl overflow-hidden"
+          >
             <div class="overflow-hidden rounded-2xl">
               <img
                 src="/images/lake-kivu.jpg"
@@ -78,12 +71,10 @@ import { RouterLink } from 'vue-router'
             </div>
 
             <div class="p-6">
-              <h3 class="text-3xl md:text-4xl font-bold text-green-800 mb-4">
-                💧 Lake Kivu
-              </h3>
+              <h3 class="text-3xl md:text-4xl font-bold text-green-800 mb-4">💧 Lake Kivu</h3>
 
               <p class="text-gray-700 mb-4 text-lg leading-relaxed">
-                One of Africa's Great Lakes, spanning between Rwanda and the Democratic Republic of Congo. 
+                One of Africa's Great Lakes, spanning between Rwanda and the Democratic Republic of Congo.
                 The lake is famous for its pristine waters, beautiful beaches, and picturesque sunsets.
               </p>
 
@@ -94,22 +85,18 @@ import { RouterLink } from 'vue-router'
                 <li>✓ Photography paradise</li>
               </ul>
 
-              <p class="text-sm text-gray-600 font-semibold">
-                📍 Karongi & Rusizi Districts | 🌅 Best sunsets: 5-7 PM
-              </p>
+              <p class="text-sm text-gray-600 font-semibold">📍 Karongi & Rusizi Districts | 🌅 Best sunsets: 5-7 PM</p>
             </div>
           </div>
 
           <!-- 2. KIBUYE (LAKE RESORT TOWN) -->
           <div class="grid md:grid-cols-2 gap-10 items-center">
             <div class="order-2 md:order-1 p-6">
-              <h3 class="text-3xl md:text-4xl font-bold text-green-800 mb-4">
-                🏘️ Kibuye Beach Resort
-              </h3>
+              <h3 class="text-3xl md:text-4xl font-bold text-green-800 mb-4">🏘️ Kibuye Beach Resort</h3>
 
               <p class="text-gray-700 mb-4 text-lg leading-relaxed">
-                A charming lakeside town perfect for relaxation and recreation. 
-                Enjoy beachfront restaurants, water activities, and stunning lake views.
+                A charming lakeside town perfect for relaxation and recreation. Enjoy beachfront restaurants,
+                water activities, and stunning lake views.
               </p>
 
               <ul class="space-y-2 mb-6 text-gray-700">
@@ -119,9 +106,7 @@ import { RouterLink } from 'vue-router'
                 <li>✓ Local markets</li>
               </ul>
 
-              <p class="text-sm text-gray-600 font-semibold">
-                📍 Karongi District | 🏨 Multiple accommodation options
-              </p>
+              <p class="text-sm text-gray-600 font-semibold">📍 Karongi District | 🏨 Multiple accommodation options</p>
             </div>
 
             <div class="order-1 md:order-2 overflow-hidden rounded-2xl">
@@ -144,13 +129,11 @@ import { RouterLink } from 'vue-router'
             </div>
 
             <div class="p-6">
-              <h3 class="text-3xl md:text-4xl font-bold text-green-800 mb-4">
-                🏝️ Lake Kivu Island Hopping
-              </h3>
+              <h3 class="text-3xl md:text-4xl font-bold text-green-800 mb-4">🏝️ Lake Kivu Island Hopping</h3>
 
               <p class="text-gray-700 mb-4 text-lg leading-relaxed">
-                Explore the beautiful islands dotting Lake Kivu. Visit fishing villages, 
-                pristine beaches, and remote communities while enjoying spectacular water views.
+                Explore the beautiful islands dotting Lake Kivu. Visit fishing villages, pristine beaches, and
+                remote communities while enjoying spectacular water views.
               </p>
 
               <ul class="space-y-2 mb-6 text-gray-700">
@@ -160,21 +143,17 @@ import { RouterLink } from 'vue-router'
                 <li>✓ Cultural encounters</li>
               </ul>
 
-              <p class="text-sm text-gray-600 font-semibold">
-                🚤 Boat tours available daily | 📸 Great for photography
-              </p>
+              <p class="text-sm text-gray-600 font-semibold">🚤 Boat tours available daily | 📸 Great for photography</p>
             </div>
           </div>
 
           <!-- 4. LAKE KIVU SUNSET EXPERIENCE -->
           <div class="grid md:grid-cols-2 gap-10 items-center">
             <div class="order-2 md:order-1 p-6">
-              <h3 class="text-3xl md:text-4xl font-bold text-green-800 mb-4">
-                🌅 Lake Kivu Sunset Cruise
-              </h3>
+              <h3 class="text-3xl md:text-4xl font-bold text-green-800 mb-4">🌅 Lake Kivu Sunset Cruise</h3>
 
               <p class="text-gray-700 mb-4 text-lg leading-relaxed">
-                Experience the most spectacular sunsets in Rwanda on a romantic cruise across Lake Kivu. 
+                Experience the most spectacular sunsets in Rwanda on a romantic cruise across Lake Kivu.
                 Watch the sun paint the sky in brilliant colors as the day ends.
               </p>
 
@@ -185,9 +164,7 @@ import { RouterLink } from 'vue-router'
                 <li>✓ Perfect for couples</li>
               </ul>
 
-              <p class="text-sm text-gray-600 font-semibold">
-                ⏱️ Duration: 2-3 hours | 🎟️ Book in advance
-              </p>
+              <p class="text-sm text-gray-600 font-semibold">⏱️ Duration: 2-3 hours | 🎟️ Book in advance</p>
             </div>
 
             <div class="order-1 md:order-2 overflow-hidden rounded-2xl">
@@ -198,16 +175,13 @@ import { RouterLink } from 'vue-router'
               />
             </div>
           </div>
-
         </div>
-
       </div>
     </section>
 
     <!-- WATER ACTIVITIES -->
     <section class="py-16 md:py-24 bg-gradient-to-b from-green-50 to-white">
       <div class="max-w-7xl mx-auto px-6">
-
         <h2 class="text-4xl md:text-5xl font-bold text-center text-green-900 mb-16">
           Water Sports & Activities
         </h2>
@@ -237,41 +211,122 @@ import { RouterLink } from 'vue-router'
             <p class="text-sm text-gray-700">Adventure sports for experienced water enthusiasts.</p>
           </div>
         </div>
-
       </div>
     </section>
 
-    <!-- CTA SECTION -->
-    <section class="py-16 md:py-24 bg-gradient-to-r from-green-700 to-green-900 text-white">
-      <div class="max-w-4xl mx-auto px-6 text-center">
-
-        <h2 class="text-4xl md:text-5xl font-bold mb-6">
-          Ready for a Lakeside Escape?
-        </h2>
-
-        <p class="text-lg md:text-xl mb-10 text-gray-100">
-          Discover the beauty and adventure of Lake Kivu with our guided tours and experiences.
+    <!-- INTRO (kept from original, but moved inside main template) -->
+    <section class="py-20 bg-white">
+      <div class="max-w-6xl mx-auto px-6 text-center">
+        <h2 class="text-4xl font-bold mb-6 text-gray-800">Welcome to Western Rwanda</h2>
+        <p class="text-gray-600 text-lg leading-relaxed">
+          The Western Province is famous for Lake Kivu, one of Africa’s Great Lakes. It offers beaches,
+          boat trips, islands, fishing villages, and breathtaking sunsets.
         </p>
-
-        <div class="flex flex-col md:flex-row justify-center gap-4">
-          <RouterLink
-            to="/contact"
-            class="bg-yellow-500 hover:bg-yellow-600 text-white px-8 py-4 rounded-lg font-bold transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
-          >
-            Plan Your Getaway
-          </RouterLink>
-
-          <RouterLink
-            to="/"
-            class="bg-white hover:bg-gray-100 text-green-700 px-8 py-4 rounded-lg font-bold transition-all duration-300 shadow-lg hover:shadow-xl"
-          >
-            Back to Home
-          </RouterLink>
-        </div>
-
       </div>
     </section>
 
+    <!-- ATTRACTIONS (simplified section from original, but kept inside template) -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-16">Top Tourist Attractions</h2>
+
+        <div class="space-y-16">
+          <div class="grid md:grid-cols-2 gap-10 items-center">
+            <img src="/images/lake-kivu.jpg" class="rounded-2xl shadow-xl w-full h-80 object-cover" />
+            <div>
+              <h3 class="text-3xl font-bold mb-3">Lake Kivu</h3>
+              <p class="text-gray-600 mb-3">
+                One of Africa’s largest lakes, offering peaceful beaches, swimming areas, boat rides, and stunning
+                sunset views.
+              </p>
+              <p class="text-gray-500">📍 Location: Western Rwanda (Rubavu, Karongi, Rusizi)</p>
+            </div>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-10 items-center">
+            <div class="order-2 md:order-1">
+              <h3 class="text-3xl font-bold mb-3">Gisenyi (Rubavu Beach)</h3>
+              <p class="text-gray-600 mb-3">
+                A beautiful lakeside town with sandy beaches, hotels, nightlife, and direct views of the
+                Democratic Republic of Congo.
+              </p>
+              <p class="text-gray-500">📍 Location: Rubavu District</p>
+            </div>
+            <img
+              src="/images/rubavu-beach.jpg.jpg"
+              class="rounded-2xl shadow-xl w-full h-80 object-cover order-1 md:order-2"
+            />
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-10 items-center">
+            <img src="/images/kibuye.jpg - Copy.jpg" class="rounded-2xl shadow-xl w-full h-80 object-cover" />
+            <div>
+              <h3 class="text-3xl font-bold mb-3">Karongi (Kibuye)</h3>
+              <p class="text-gray-600 mb-3">
+                Known for its peaceful islands, boat cruises, and romantic sunsets over Lake Kivu.
+              </p>
+              <p class="text-gray-500">📍 Location: Karongi District</p>
+            </div>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-10 items-center">
+            <div class="order-2 md:order-1">
+              <h3 class="text-3xl font-bold mb-3">Lake Kivu Islands</h3>
+              <p class="text-gray-600 mb-3">
+                Small islands across Lake Kivu where visitors can enjoy boat tours, bird watching, and peaceful
+                nature experiences.
+              </p>
+              <p class="text-gray-500">📍 Location: Lake Kivu (Various districts)</p>
+            </div>
+            <img
+              src="/images/lake-kivu-islands.jpg.jpg"
+              class="rounded-2xl shadow-xl w-full h-80 object-cover order-1 md:order-2"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACTIVITIES -->
+    <section class="py-20 bg-white">
+      <div class="max-w-6xl mx-auto px-6 text-center">
+        <h2 class="text-4xl font-bold mb-10">Activities in Western Province</h2>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="p-6 bg-gray-50 rounded-xl shadow">
+            <h3 class="font-bold text-xl mb-2">Beach Relaxation</h3>
+            <p class="text-gray-600">Enjoy calm beaches along Lake Kivu.</p>
+          </div>
+          <div class="p-6 bg-gray-50 rounded-xl shadow">
+            <h3 class="font-bold text-xl mb-2">Boat Trips</h3>
+            <p class="text-gray-600">Explore islands and scenic lake views.</p>
+          </div>
+          <div class="p-6 bg-gray-50 rounded-xl shadow">
+            <h3 class="font-bold text-xl mb-2">Sunset Viewing</h3>
+            <p class="text-gray-600">Experience one of Africa’s best sunsets.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-24 bg-green-700 text-white text-center">
+      <h2 class="text-5xl font-bold mb-6">Explore Eastern Rwanda Next</h2>
+      <p class="text-xl mb-10">Discover wildlife safaris and national parks.</p>
+
+      <div class="flex flex-col md:flex-row justify-center gap-4">
+        <RouterLink to="/eastern" class="bg-white text-green-700 px-8 py-4 rounded-lg font-bold">
+          Eastern Province
+        </RouterLink>
+
+        <RouterLink
+          to="/destinations"
+          class="bg-yellow-500 text-black px-8 py-4 rounded-lg font-bold"
+        >
+          All Destinations
+        </RouterLink>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -290,221 +345,9 @@ import { RouterLink } from 'vue-router'
 .animate-fadeInUp {
   animation: fadeInUp 1s ease-out;
 }
-</style>
 
-    <!-- INTRO -->
-    <section class="py-20 bg-white">
-      <div class="max-w-6xl mx-auto px-6 text-center">
-
-        <h2 class="text-4xl font-bold mb-6 text-gray-800">
-          Welcome to Western Rwanda
-        </h2>
-
-        <p class="text-gray-600 text-lg leading-relaxed">
-          The Western Province is famous for Lake Kivu, one of Africa’s Great Lakes.
-          It offers beaches, boat trips, islands, fishing villages, and breathtaking sunsets.
-        </p>
-
-      </div>
-    </section>
-
-    <!-- ATTRACTIONS -->
-    <section class="py-20 bg-gray-50">
-      <div class="max-w-7xl mx-auto px-6">
-
-        <h2 class="text-4xl font-bold text-center mb-16">
-          Top Tourist Attractions
-        </h2>
-
-        <div class="space-y-16">
-
-          <!-- Lake Kivu -->
-          <div class="grid md:grid-cols-2 gap-10 items-center">
-
-            <img
-              src="/src/assets/lake-kivu.jpg"
-              class="rounded-2xl shadow-xl w-full h-80 object-cover"
-            />
-
-            <div>
-              <h3 class="text-3xl font-bold mb-3">
-                Lake Kivu
-              </h3>
-
-              <p class="text-gray-600 mb-3">
-                One of Africa’s largest lakes, offering peaceful beaches, swimming areas,
-                boat rides, and stunning sunset views.
-              </p>
-
-              <p class="text-gray-500">
-                📍 Location: Western Rwanda (Rubavu, Karongi, Rusizi)
-              </p>
-            </div>
-
-          </div>
-
-          <!-- Gisenyi -->
-          <div class="grid md:grid-cols-2 gap-10 items-center">
-
-            <div class="order-2 md:order-1">
-              <h3 class="text-3xl font-bold mb-3">
-                Gisenyi (Rubavu Beach)
-              </h3>
-
-              <p class="text-gray-600 mb-3">
-                A beautiful lakeside town with sandy beaches, hotels, nightlife,
-                and direct views of the Democratic Republic of Congo.
-              </p>
-
-              <p class="text-gray-500">
-                📍 Location: Rubavu District
-              </p>
-            </div>
-
-            <img
-              src="/src/assets/gisenyi-beach.jpg"
-              class="rounded-2xl shadow-xl w-full h-80 object-cover order-1 md:order-2"
-            />
-
-          </div>
-
-          <!-- Karongi -->
-          <div class="grid md:grid-cols-2 gap-10 items-center">
-
-            <img
-              src="/src/assets/karongi.jpg"
-              class="rounded-2xl shadow-xl w-full h-80 object-cover"
-            />
-
-            <div>
-              <h3 class="text-3xl font-bold mb-3">
-                Karongi (Kibuye)
-              </h3>
-
-              <p class="text-gray-600 mb-3">
-                Known for its peaceful islands, boat cruises, and romantic sunsets
-                over Lake Kivu.
-              </p>
-
-              <p class="text-gray-500">
-                📍 Location: Karongi District
-              </p>
-            </div>
-
-          </div>
-
-          <!-- Islands -->
-          <div class="grid md:grid-cols-2 gap-10 items-center">
-
-            <div class="order-2 md:order-1">
-              <h3 class="text-3xl font-bold mb-3">
-                Lake Kivu Islands
-              </h3>
-
-              <p class="text-gray-600 mb-3">
-                Small islands across Lake Kivu where visitors can enjoy boat tours,
-                bird watching, and peaceful nature experiences.
-              </p>
-
-              <p class="text-gray-500">
-                📍 Location: Lake Kivu (Various districts)
-              </p>
-            </div>
-
-            <img
-              src="/src/assets/kivu-islands.jpg"
-              class="rounded-2xl shadow-xl w-full h-80 object-cover order-1 md:order-2"
-            />
-
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <!-- ACTIVITIES -->
-    <section class="py-20 bg-white">
-      <div class="max-w-6xl mx-auto px-6 text-center">
-
-        <h2 class="text-4xl font-bold mb-10">
-          Activities in Western Province
-        </h2>
-
-        <div class="grid md:grid-cols-3 gap-8">
-
-          <div class="p-6 bg-gray-50 rounded-xl shadow">
-            <h3 class="font-bold text-xl mb-2">Beach Relaxation</h3>
-            <p class="text-gray-600">Enjoy calm beaches along Lake Kivu.</p>
-          </div>
-
-          <div class="p-6 bg-gray-50 rounded-xl shadow">
-            <h3 class="font-bold text-xl mb-2">Boat Trips</h3>
-            <p class="text-gray-600">Explore islands and scenic lake views.</p>
-          </div>
-
-          <div class="p-6 bg-gray-50 rounded-xl shadow">
-            <h3 class="font-bold text-xl mb-2">Sunset Viewing</h3>
-            <p class="text-gray-600">Experience one of Africa’s best sunsets.</p>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="py-24 bg-green-700 text-white text-center">
-
-      <h2 class="text-5xl font-bold mb-6">
-        Explore Eastern Rwanda Next
-      </h2>
-
-      <p class="text-xl mb-10">
-        Discover wildlife safaris and national parks.
-      </p>
-
-      <div class="flex flex-col md:flex-row justify-center gap-4">
-
-        <router-link
-          to="/eastern"
-          class="bg-white text-green-700 px-8 py-4 rounded-lg font-bold"
-        >
-          Eastern Province
-        </router-link>
-
-        <router-link
-          to="/destinations"
-          class="bg-yellow-500 text-black px-8 py-4 rounded-lg font-bold"
-        >
-          All Destinations
-        </router-link>
-
-      </div>
-
-    </section>
-
-  </div>
-</template>
-
-<script>
-export default {
-  name: "WesternView"
-}
-</script>
-
-<style scoped>
 html {
   scroll-behavior: smooth;
 }
 </style>
 
-
-
-
-<!-- /src/assets/
-  western-hero.jpg
-  lake-kivu.jpg
-  gisenyi-beach.jpg
-  karongi.jpg
-  kivu-islands.jpg -->
